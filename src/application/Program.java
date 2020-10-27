@@ -53,7 +53,7 @@ public class Program {
 			order.addItem(item);
 		}
 		
-		System.out.println("ORDER SUMARY: ");
+		/*System.out.println("ORDER SUMARY: ");
 		System.out.println("Order moment: " + order.getMoment());
 		System.out.println("Order status: " + order.getStatus());
 		System.out.println("Client: " + order.getClient().getName()+
@@ -65,6 +65,9 @@ public class Program {
 					", Quantity: "+ c.getQuantity()+
 					", Subtotal: "+ c.subTotal());
 		}
+		*/
+		System.out.println("ORDER SUMMARY: ");
+		System.out.println(order.toString());
 		System.out.println("Total price: " + order.total());
 		
 		sc.close();
